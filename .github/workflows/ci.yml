@@ -247,7 +247,7 @@ jobs:
           name: EXP-IP-Scanner-windows-x64-${{ github.sha }}
           path: artifacts/*
           if-no-files-found: error
-          retention-days: 14
+          retention-days: 7
 
   audit:
     name: Dependency audit
